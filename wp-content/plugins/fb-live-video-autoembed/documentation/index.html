@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<head lang="en">
+	<meta http-equiv="content-type" content="text/html;charset=utf-8">
+	<title>Facebook Live Videos Auto Embed </title>
+	<!-- Framework CSS -->
+	<link rel="stylesheet" href="assets/blueprint-css/screen.css" type="text/css" media="screen, projection">
+	<link rel="stylesheet" href="assets/blueprint-css/print.css" type="text/css" media="print">
+	<!--[if lt IE 8]><link rel="stylesheet" href="assets/blueprint-css/ie.css" type="text/css" media="screen, projection"><![endif]-->
+	<link rel="stylesheet" href="assets/blueprint-css/plugins/fancy-type/screen.css" type="text/css" media="screen, projection">
+        <link rel="stylesheet" href="assets/featherlight/featherlight.css" type="text/css" media="screen, projection">
+        <script type="text/javascript" charset="utf-8" src="assets/featherlight/jquery.min.js"></script>
+        <script type="text/javascript" charset="utf-8" src="assets/featherlight/featherlight.js"></script>
+	<style type="text/css" media="screen">
+		p, table, hr, .box { margin-bottom:25px; }
+		.box p { margin-bottom:10px; }
+                .thumbnail img{
+                    max-width: 100%;
+                    padding-bottom: 30px;
+                  }
+	</style>
+</head>
+
+
+<body>
+	<div class="container">
+	
+		<h3 class="center alt">&ldquo;Facebook Live Videos Auto Embed for WordPress&rdquo; Documentation by &ldquo;SleekAlgo&rdquo; v2.5</h3>
+		
+		<hr>
+		
+		<h1 class="center">&ldquo;Facebook Live Videos Auto Embed for WordPress&rdquo;</h1>
+		
+		<div class="borderTop">
+			<div class="span-6 colborder info prepend-1">
+				<p class="prepend-top">
+					<strong>
+					Created: 10th May, 2018<br>
+					By: SleekAlgo<br>
+					Email: <a href="mailto:support@sleekalgo.com">support@sleekalgo.com</a>
+					</strong>
+				</p>
+			</div><!-- end div .span-6 -->		
+	
+			<div class="span-12 last">
+				<p class="prepend-top append-0">Thank you for purchasing the plugin. If you have any questions that are beyond the scope of this help file, please feel free to email us at <a href="mailto:support@sleekalgo.com">support@sleekalgo.com</a>. Thanks so much!</p>
+			</div>
+		</div><!-- end div .borderTop -->
+		
+		<hr>
+		
+		<h2 id="toc" class="alt">Table of Contents</h2>
+		<ol class="alpha">
+			<li><a href="#whatfor">What is it for?</a></li>
+                        <li><a href="#download-link">Download Link</a></li>
+                        <li><a href="#hostreqs">Hosting Requirements</a></li>                        
+			<li><a href="#installation-guide">Installation Guide</a></li>
+			<li><a href="#user-guide">User Guide</a></li>
+		</ol>
+		
+		<hr>
+                <p>&nbsp;<a name="whatfor"></a></p>
+                <h2>What is it for?</h2>
+                <p>Automatically embed live videos of your Facebook Account/Page/Group on your wordpress site whenever your Facebook Account/Page/Group goes live on Facebook. The plugin detects if your Facebook Account/Page/Group is currently live and embeds the live video automatically. Also has the ability to embed previously recorded live videos and uploaded videos. Also has ability to configure a Site Wide Top Notification Bar to be displayed whenever your Facebook Account/Page/Group goes live. This plugin can be used for your Facebook User account or Facebook Pages you own or public Facebook Groups you are an admin of.
+                </p>
+                <h6>Features:</h6>
+                <ol>
+                <li>Ability to create Embed codes (WordPress shortcode call) for your Facebook Account/Page/Group. Use the embed code anywhere in content of your website (posts, pages etc). Whenever you go live on your account/page/group, the live video will automatically get embedded in the content where the code is placed.</li>                
+                <li>Ability to create Embed codes for previously recorded live videos of your Facebook Account/Page/Group. Use the embed code anywhere in content of your website (posts, pages etc). Recent live videos of your Facebook Account/Page/Group will be embedded in the content where the code is placed.</li>
+                <li>Ability to create Embed code for uploaded videos of your Facebook Account/Page/Group. Use the embed code anywhere in content of your website (posts, pages etc). Uploaded videos of your Facebook Account/Page/Group will be embedded in the content where the code is placed.</li>
+                <li>Ability to enter Max Number of Videos to be embedded. There is no limit.</li>
+                <li>Ability to enter custom message for visitors to be displayed above the video player.</li>
+                <li>Ability to enter custom alternate message to communicate with visitors when your Facebook Account/Page/Group is not live.</li>
+                <li>Ability to enter custom alternate message to communicate with visitors when no recent live video is available.</li>
+                <li>Ability to use WordPress Shortcodes in Alternate Message and Top Message.</li>
+                <li>Ability to enter custom width of the video player.</li>
+                <li>Responsive out of the box.</li>
+                <li>Ability to show full Facebook post (video description and buttons for like/comment/share) attached to the video player. This feature is Desktop Only, Facebook has disabled it for mobile devices.</li>
+                <li>Ability to allow/ disallow Fullscreen mode (for recorded videos and uploaded videos only).</li>
+                <li>Ability to cache the recorded videos and uploaded videos, and set cache refresh time. This is useful for reducing server load and number of API requests.</li>
+                <li>Ability to use same embed code at multiple places on your website.</li>
+                <li>Ability to use multiple embed codes within single post/page of WordPress</li>
+                <li>Ability to configure a Site Wide Top Notification Bar to be displayed when your Facebook Account/Page/Group goes live.</li>
+                <li>Notification bar is AJAX based. So it appears automatically on an opened page of the website without the need of refreshing it.</li>
+                <li>Ability to customize the look of Notification Bar.</li>
+                <li>Ability to make the Notification Bar sticky.</li>
+                <li>Ability to add blinking effect to Notification bar.</li>                
+                </ol>
+                
+                
+                <p>&nbsp;<a name="hostreqs"></a></p>
+                <h2>Hosting Requirements</h2>
+                <h6>PHP Version</h6>
+                - Facebook API requires PHP version 5.4 or later.
+                <h6>SSL (HTTPS)</h6>
+                - New Facebook apps REQUIRE SSL for Facebook Login to work. So your website must be on HTTPS.
+                
+                <p>&nbsp;<a name="download-link"></a></p>
+                <h2>Download Link</h2>
+                <a href="https://codecanyon.net/item/facebook-live-video-auto-embed/18144979?ref=sleekalgo">Download</a>
+                
+                
+                <p>&nbsp;<a name="installation-guide"></a></p>
+                <h2>Installation Guide</h2>
+                <p>Step by step installation guide.</p>
+                <h6>Step 1: Getting Facebook App ID and App Secret</h6>
+                <ol>
+                  <li>We must get Facebook App ID and App Secret in order to use the plugin as it is a necessity to use Facebook API. Firstly, please go to facebook website and login to your Facebook account. (There is no harm in using personal facebook account)</li>
+                  <li>Now go to the Developers page: <a href="https://developers.facebook.com/">https://developers.facebook.com/</a></li>
+                  <li>Click the "Register" button as shown in the following image:<br /><div class="thumbnail-wrap">
+                      <a class="thumbnail" data-featherlight="image" href="assets/images/1.png"><img src="assets/images/1.png"/></a></div></li>
+                  <li>Accept the policy and click "Next" button as shown in the following image:<br /><div class="thumbnail-wrap">
+                      <a class="thumbnail" data-featherlight="image" href="assets/images/2.png"><img src="assets/images/2.png"/></a></div></li>
+                  <li>Solve captcha and/or confirm your phone number (if asked). Now you are registered as Facebook Developer, you will see a screen similar to the following image. Please click "Create App ID". <br /><div class="thumbnail-wrap">
+                      <a class="thumbnail" data-featherlight="image" href="assets/images/3.png"><img src="assets/images/3.png"/></a></div></li>
+                  <li>You will see a form similar to the following. Please fill the fields as instructed in the following image and click "Create App ID".<br /><div class="thumbnail-wrap">
+                      <a class="thumbnail" data-featherlight="image" href="assets/images/4.png"><img src="assets/images/4.png"/></a></div></li>
+                  <li>You have successfully created a Facebook App. You will be navigated to a screen similar to the following. Now please click "Settings":<br /><div class="thumbnail-wrap">
+                      <a class="thumbnail" data-featherlight="image" href="assets/images/5.png"><img src="assets/images/5.png"/></a></div></li>
+                  <li>Now you will see the settings page as shown in the following image. Please click "Add Platform":<br /><div class="thumbnail-wrap">
+                      <a class="thumbnail" data-featherlight="image" href="assets/images/6.png"><img src="assets/images/6.png"/></a></div></li>
+                  <li>You will see a screen similar to the following. Please click "Website":<br /><div class="thumbnail-wrap">
+                      <a class="thumbnail" data-featherlight="image" href="assets/images/7.png"><img src="assets/images/7.png"/></a></div></li>
+                  <li>Website platform will be added to your app as shown in the following image. Now enter Domain name and URL of your website (on which you are going to install the plugin) and click "Save Changes".<br /><div class="thumbnail-wrap">
+                      <a class="thumbnail" data-featherlight="image" href="assets/images/8.png"><img src="assets/images/8.png"/></a></div></li>
+                  <li>Now please click the "Show" button inside App Secret field in order to reveal App Secret as shown in the following image:<br /><div class="thumbnail-wrap">
+                      <a class="thumbnail" data-featherlight="image" href="assets/images/13b.png"><img src="assets/images/13b.png"/></a></div></li>
+                  <li>Now please copy the App ID and App Secret as shown in the following image. Please keep them with you as they will need to be entered at the settings page of the WordPress Plugin.<br /><div class="thumbnail-wrap">
+                      <a class="thumbnail" data-featherlight="image" href="assets/images/14.png"><img src="assets/images/14.png"/></a></div></li>
+                  <li>Now the facebook part is done. We will move to the next step now i.e. installing the plugin and configuring it.</li>
+                  <li>Note: Since only the admin of the app (i.e. you) is going to login using this Facebook App, there is no need to make your Facebook app live.</li>
+                </ol>
+                <br />
+                <h6>Step 2: Installing the Plugin and Configuring it</h6>
+                <ol>
+                  <li>Extract the plugin Zip file and copy the extracted folder to wp-content/plugins of your WordPress installation.</li>
+                  <li>Login to WordPress Admin section and go to the plugins section.</li>
+                  <li>Find the plugin "Facebook Live Videos Auto Embed" and click "Activate" as in the following image: <br /><div class="thumbnail-wrap">
+                      <a class="thumbnail" data-featherlight="image" href="assets/images/15.png"><img src="assets/images/15.png"/></a></div></li>
+                  <li>Once the plugin is activated, a new menu item "Facebook Live Videos Auto Embed" will appear. Please click it as shown in the following image:<br /><div class="thumbnail-wrap">
+                      <a class="thumbnail" data-featherlight="image" href="assets/images/16.png"><img src="assets/images/16.png"/></a></div></li>
+                  <li>The plugin's Settings page will display as shown in the following image. Please enter the App ID and App Secret (which were noted in the previous step) in the relevant fields and click "Submit".<br /><div class="thumbnail-wrap">
+                      <a class="thumbnail" data-featherlight="image" href="assets/images/17.png"><img src="assets/images/17.png"/></a></div></li>
+                  <li>You will see a screen similar to the one in the following image. Now please click the "Log in to Facebook" button to connect the plugin with your Facebook account.<br /><div class="thumbnail-wrap">
+                      <a class="thumbnail" data-featherlight="image" href="assets/images/18.png"><img src="assets/images/18.png"/></a></div></li>
+                      <li>You will see a Facebook login box now. Please login with your Facebook account. <br />
+                        The Facebook account used here for login must be the same account which created the Facebook App in Step 1 of this guide. If a different Facebook account must be used then add that account as an Administrator/ Developer/ Tester in the Facebook App by going to Roles section of the Facebook App at https://developers.facebook.com/apps.<br />
+                        After logging in, you will see a screen similar to the following image. Please click "Continue as" button and grant permissions.<br /><div class="thumbnail-wrap">
+                      <a class="thumbnail" data-featherlight="image" href="assets/images/18a.png"><img src="assets/images/18a.png"/></a></div></li>     
+                  <li>You will see a screen similar to the following. Which means that you have successfully connected the plugin with your Facebook account. The access token usually expires in 60 days. In order to keep things working correctly, please make sure access token is renewed before it gets expired. The plugin will create notification in Admin section when less than 7 days are remaining in access token expiry or if the access token becomes invalid due to any reason. <br /><div class="thumbnail-wrap">
+                      <a class="thumbnail" data-featherlight="image" href="assets/images/18b.png"><img src="assets/images/18b.png"/></a></div></li>
+                  <li>That's it! You have completed the installation and configuring of the plugin. You can now start using the plugin. Please continue with the User Guide below to understand the usage of the plugin. </li>
+                </ol>
+                <p>&nbsp;<a name="user-guide"></a></p>
+                <h2>User Guide</h2>
+                <p>Configure Embed codes and use them in your WordPress content (posts, pages etc) by following the guide below.</p>
+                <ol>
+                  <li>Click "Create New Embed Code" menu item which is present under "Facebook Live Videos Auto Embed". You will see the following form:<br /><div class="thumbnail-wrap">
+                      <a class="thumbnail" data-featherlight="image" href="assets/images/19.png"><img src="assets/images/19.png"/></a></div></li>
+                  <li>The first field is the Source of your video. You can select "A Facebook Page I Own", "A Facebook Group I am an admin of" or "My Facebook User Account".<br />
+                    - If you select "My Facebook User Account" then the Facebook account logged in at the settings page of the plugin will be used as Source.<br />
+                    - If you select "A Facebook Group I am an admin of" then you will have to enter Facebook Group ID. You can find ID of a Facebook group by entering its URL at <a href="https://lookup-id.com" target="_blank">Lookup ID</a>.<br />
+                    - If you select "A Facebook Page I Own" then you will have to enter Username of the Facebook Page. Please see the following image to know where to find the Username of a Facebook Page.<br />
+                    <div class="thumbnail-wrap"><a class="thumbnail" data-featherlight="image" href="assets/images/20.png"><img src="assets/images/20.png"/></a></div></li>
+                  <li>Please enter other fields of the form based on how you want the embed code to work.<br />
+                      We select "A Facebook Page I Own" for this example and enter other details. <br />
+                    <div class="thumbnail-wrap">
+                      <a class="thumbnail" data-featherlight="image" href="assets/images/21.png"><img src="assets/images/21.png"/></a></div></li>
+                  <li>In this example we have selected "Recent Live Videos (Recorded)" which means that the embed code will embed recent live videos of the page. Now please click "Submit", you will see success message if all the required fields have been filled correctly.</li>
+                  <li>Now please click the "Embed Codes List" menu item under "Facebook Live Videos Auto Embed". It will display a table and you will see your newly added embed code configuration there. Please copy the embed code as shown in the following image: <br /><div class="thumbnail-wrap">
+                      <a class="thumbnail" data-featherlight="image" href="assets/images/22.png"><img src="assets/images/22.png"/></a></div></li>
+                  <li>Now create a new post/page and enter the copied code in the content as shown in the following image:<br /><div class="thumbnail-wrap">
+                      <a class="thumbnail" data-featherlight="image" href="assets/images/23.png"><img src="assets/images/23.png"/></a></div></li>
+                  <li>Publish the post/page and view it. You will see recently recorded live videos embedded inside your post/page according to the configuration you selected. <br /><div class="thumbnail-wrap">
+                      <a class="thumbnail" data-featherlight="image" href="assets/images/24.png"><img src="assets/images/24.png"/></a></div></li>
+                  <li>Now we create another Embed code. This time we select "Currently Live Video" in the Video Type field. I have again selected "A Facebook Page I Own" as Source and entered the same Facebook Page Username, you can do as you wish.<br /><div class="thumbnail-wrap">
+                      <a class="thumbnail" data-featherlight="image" href="assets/images/25.png"><img src="assets/images/25.png"/></a></div></li>
+                  <li>Now we go to the Embed Codes List page. There is a new record there. We copy its embed code.<br /><div class="thumbnail-wrap">
+                      <a class="thumbnail" data-featherlight="image" href="assets/images/26.png"><img src="assets/images/26.png"/></a></div></li>
+                  <li>Now I go back to the same post I created for first embed code, you can use a new post/page as you want. I add the new code in the content and update the post.<br /><div class="thumbnail-wrap">
+                      <a class="thumbnail" data-featherlight="image" href="assets/images/27.png"><img src="assets/images/27.png"/></a></div></li>
+                  <li>Now I view the post. It is showing the recorded videos but above them it is showing the message which I entered in the second embed code configuration as Alternate message. This means that the Facebook page is not currently live. If the page was currently live it would embed the live video there. You can experiment by setting up embed code for your Facebook User Account/ Page/ Group and then going live on Facebook and seeing the result on your WordPress website.<br /><div class="thumbnail-wrap">
+                      <a class="thumbnail" data-featherlight="image" href="assets/images/28.png"><img src="assets/images/28.png"/></a></div></li>
+                  <li>In order to configure Site Wide Notification Bar, click "Site Wide Notification" menu item which is present under "Facebook Live Videos Auto Embed". The first field is the Source of your video. You can select "A Facebook Page I Own", "A Facebook Group I am an admin of" or "My Facebook User Account".<br />
+                    - If you select "My Facebook User Account" then the Facebook account logged in at the settings page of the plugin will be used as Source.<br />
+                    - If you select "A Facebook Group I am an admin of" then you will have to enter Facebook Group ID. You can find ID of a Facebook group by entering its URL at <a href="https://lookup-id.com" target="_blank">Lookup ID</a>.<br />
+                    - If you select "A Facebook Page I Own" then you will have to enter Username of the Facebook Page. Please see the following image to know where to find the Username of a Facebook Page.<br />
+                    <div class="thumbnail-wrap"><a class="thumbnail" data-featherlight="image" href="assets/images/20.png"><img src="assets/images/20.png"/></a></div></li>                  
+                  <li>Set options as you want then click submit. If you have entered everything correctly, you will see a screen similar to the following:<br /><div class="thumbnail-wrap">
+                      <a class="thumbnail" data-featherlight="image" href="assets/images/29.png"><img src="assets/images/29.png"/></a></div></li> 
+                  <li>Once you have configured the Site Wide Notification Bar for your Facebook User Account/ Page/ Group, a Notification Bar will appear on your WordPress website whenever your Facebook User Account/ Page/ Group goes live. The Notification Bar's appearance will depend upon your configuration, it will appear like this:<br /><div class="thumbnail-wrap">
+                      <a class="thumbnail" data-featherlight="image" href="assets/images/30.png"><img src="assets/images/30.png"/></a></div></li>        
+                  <li>The Notification Bar is AJAX based which means that it appears automatically without the need of refreshing the page. Once the Source goes live, it can take 1-75 seconds for the Notification Bar to appear on the website. The Notification Bar will be clickable and will navigate the user to the link entered in the configuration. User can also click the close button to close the Notification Bar. Once a user closes the bar, it will not appear to them for 15 minutes.</li>    
+                </ol>
+                <br /><br /><br />
+                <a name="find-page-username" style="padding-top: 100px"></a>
+                <h3>How to find Facebook Page Username?</h3>
+                <p>Please see the following image to know where to find the Username of a Facebook Page.</p>
+                <div class="thumbnail-wrap"><a class="thumbnail" data-featherlight="image" href="assets/images/20.png"><img src="assets/images/20.png"/></a></div>
+                <br /><br /><br />
+                <a name="find-group-id" style="padding-top: 100px"></a>
+                <h3>How to find ID of a Facebook Group?</h3>
+                <p>You can find ID of a Facebook group by entering its URL at <a href="https://lookup-id.com" target="_blank">Lookup ID</a>.</p>  
+		<hr>
+		
+		<p>Once again, thank you so much for purchasing this plugin. We'd be glad to help you if you have any questions relating to this plugin. If you have a more general question relating to the plugins on CodeCanyon, you might consider visiting the forums and asking your question there.</p> 
+		
+		<p class="append-bottom alt large"><strong>SleekAlgo</strong></p>
+		<p><a href="#toc">Go To Table of Contents</a></p>
+		
+		<hr class="space">
+	</div><!-- end div .container -->
+</body>
+</html>

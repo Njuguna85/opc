@@ -1,0 +1,66 @@
+Update V 3.0.1  (2020-03-20)
+- Bug Fix: New embed code creation error fixed which was appearing only on fresh installs.
+
+
+Update V 3.0  (2020-03-20)
+- Bug Fix: "No cookie set or no OAuth data could be obtained from cookie." Login error fixed.
+- Bug Fix: Fixed an issue with embedding videos from Facebook groups.
+
+
+Update V 2.5.3  (2019-05-14)
+- New Feature: Full screen option added to live videos.
+- Improvement: By default the sound is unmute now.
+
+
+Update V 2.5.2  (2018-10-25)
+- Improvement: Efficient use of API requests to avoid Application Request limit reached error.
+
+
+Update V 2.5.1  (2018-07-17)
+- Bug fix: Deprecated permission error fix for Facebook groups.
+
+
+Update V 2.5  (2018-05-10)
+- This is a very important update as it makes the plugin compatible with "Breaking Changes" in the Facebook API. 
+- Now the plugin works fine with the new changes in Facebook API and is compliant with Facebook data policies.
+- Please make sure you deactivate the old version of the plugin before activating this one. Please follow the installation and user guide carefully.
+
+
+Update V 2.4
+- New Feature: Support for Facebook User accounts added. Now all features can be used for a Facebook User account as well.
+- New Feature: Support for Facebook Public Groups added. Now all features can be used for Facebook Public Groups as well.
+- Issue fixed: Error "Please reduce the amount of data you are asking for" was sometimes appearing for Facebook pages with very high following. Fixed in this update.
+- Removed configuration option "Hide if Live". It was no longer required after being able to add Shortcodes to Alternate Message.
+- Bug Fix: Notification bar was getting hidden behind sticky (fixed position) header menu of some websites. This issue has been fixed.
+
+
+Update V 2.3
+- New feature: Ability to use WordPress Shortcodes in Top Message and Alternate Message fields.
+- Possibility of namespace conflict with any other plugin using Facebook PHP SDK has been removed.
+- Removed "Refresh" button from Live Video Alternate Message as now there is no need to ask the user to refresh the page because notification bar will appear automatically when live video starts.
+
+
+Update V 2.2
+- Improvement: Now Site Wide Notification is AJAX based. If the Facebook page goes live, the notification will appear automatically without the need of page refresh. Once the Facebook page goes live, the bar can take 1 to 75 seconds to appear.
+- Bug Fix: With some themes, JS was being wrapped in HTML tags, this issue has been fixed by removal of JS script from Shortcode output.
+
+
+Update V 2.1
+- New feature: New configuration option for recently recorded/uploaded videos i.e. "Hide if Live". If this option is selected the plugin will not display anything from this embed code if there is already a live video on the website page.
+
+
+Update V 2.0
+- This a major update with new functionality of Site Wide Top Notification Bar.
+- Many UI/UX improvements in the admin section of the plugin.
+
+
+Update V 1.2 
+
+- Fixed bug Request timed out.
+- Fixed bug where plugin tried to embed non embeddable videos. Now checks before embedding, if the video is non embeddable it just skips it. 
+
+
+Update V 1.1 
+
+- Added new feature to embed uploaded videos (i.e. other than currently live or recorded live videos) of Facebook pages which was not there in the previous version. 
+- Loader image was appearing in some videos even after the video was loaded. Fixed.
